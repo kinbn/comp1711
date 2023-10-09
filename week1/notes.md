@@ -1,3 +1,3 @@
-rm -r removes directories that are not empty
-&&  ||
-
+compiled language - written code converts into machine code
+Interpreted language-
+java is a combination of both
