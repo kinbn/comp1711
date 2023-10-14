@@ -3,12 +3,17 @@
 int main ()
 {
 
-    int n;
+    int i, n, fact = 1;
 
     printf("Enter a number: ");
     scanf("%d", &n);
 
-    printf("The factoial of %d is %d \n", n, !n);
+    for(i = n; i >= 1; i--) 
+    {
+        fact = fact * i;
+    }
+
+    printf("The factoial of %d is %d \n", n, fact);
     
     return 0;
 
