@@ -27,9 +27,12 @@ echo ""
 echo ""
 echo ""
 
-echo "Enter a message: "
+ echo "Enter a message: "
 
 read gitcommit
+
+echo ""
+echo ""
 
 git commit -m "$gitcommit" 
 
@@ -37,7 +40,7 @@ echo ""
 echo ""
 echo ""
 
-echo " Shall I push? [y/n] "
+ echo " Shall I push? [y/n] "
 
 read pushquery
 
@@ -48,6 +51,7 @@ then
     git push
 
 else  
+
     echo " bruh "
 
 fi
