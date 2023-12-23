@@ -8,7 +8,7 @@ int main()
     scanf("%d", &x);
     
     printf("Enter y: ");
-    scanf("%d", &y);
+    scanf("%d", &y);    
         
      temp = x;
      x = y;

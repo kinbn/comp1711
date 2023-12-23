@@ -3,7 +3,7 @@
 int main ()
 {
 char filename[]= "data.txt";
-FILE *file = fopen(filename, "w");
+FILE *file = fopen(filename, "w+");
 
 if (file == NULL)
 {
@@ -12,7 +12,7 @@ if (file == NULL)
 }
 
 int number, num_lines = 10;
-printf("type %d number: ", num_lines);
+printf("type %d numbers: \n", num_lines);
 
 for (int i = 0; i < num_lines; i++)
 {
